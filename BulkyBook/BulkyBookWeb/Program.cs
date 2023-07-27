@@ -1,5 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// For prior versions, this used to be separate startup.cs file, just like in web-API-practice
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
